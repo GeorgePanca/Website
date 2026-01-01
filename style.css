@@ -798,3 +798,10 @@ body::after {
     max-width: 100%;
   }
 }
+
+.menu-toggle,
+.hamburger {
+  pointer-events: auto !important;
+  z-index: 100000;
+  position: relative;
+}
